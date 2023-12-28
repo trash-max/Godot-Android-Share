@@ -33,3 +33,13 @@ class AndroidExportPlugin extends EditorExportPlugin:
 
 	func _get_name():
 		return _plugin_name
+
+	func _get_android_dependencies(platform, debug):
+		if debug:
+			return PackedStringArray([
+				"androidx.core:core:1.10.0",
+				])
+		else:
+			return PackedStringArray([
+				"androidx.core:core:1.10.0",
+				])

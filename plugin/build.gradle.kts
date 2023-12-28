@@ -38,7 +38,8 @@ android {
 }
 
 dependencies {
-    implementation("org.godotengine:godot:4.2.0.stable")
+    implementation("org.godotengine:godot:4.2.1.stable")
+    implementation("androidx.core:core:1.10.0")
 }
 
 // BUILD TASKS DEFINITION
