@@ -6,10 +6,10 @@ plugins {
 }
 
 // TODO: Update value to your plugin's name.
-val pluginName = "GodotAndroidPluginTemplate"
+val pluginName = "GodotAndroidShare"
 
 // TODO: Update value to match your plugin's package name.
-val pluginPackageName = "org.godotengine.plugin.android.template"
+val pluginPackageName = "one.allme.android.share"
 
 android {
     namespace = pluginPackageName
